@@ -1,0 +1,15 @@
+\newpage
+\section*{Appendix}
+\addcontentsline{toc}{section}{Appendix} % Adds to Table of Content without number
+\subsection*{MatLab kod}
+\addcontentsline{toc}{subsection}{MatLab kod} 
+
+\lstinputlisting[caption={Fin kod}]{Resources/Code/example.m}
+
+\newpage
+\newgeometry{top=2cm}
+
+\includepdf[scale=0.86,pagecommand=\subsection*{Datablad},pages=-]{Resources/PDF/Atmega1284.pdf}
+\addcontentsline{toc}{subsection}{Datablad} 
+
+\restoregeometry

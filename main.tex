@@ -1,0 +1,28 @@
+\documentclass[a4paper,11pt]{article}
+\usepackage{Settings/style}
+
+\input{Sections/00_Title.tex}
+
+\begin{document}
+\input{Settings/swedishfy.tex}
+\input{Settings/abbreviations.tex}
+
+\maketitle
+\pagenumbering{gobble} % Ignore numbering
+\np
+\input{TODO.tex} % TODO list
+% \input{Sections/01_Abstract.tex}
+\tableofcontents
+\pagebreak
+\pagenumbering{arabic} % Start numbering
+
+\input{Sections/1_Introduction.tex}
+\input{Sections/2_Theory.tex}
+\input{Sections/3_Method.tex}
+\input{Sections/4_Results.tex}
+\input{Sections/5_Discussion.tex}
+\input{Sections/6_Conclusion.tex}
+\input{Sections/i_References.tex}
+\input{Sections/ii_Appendix.tex}
+
+\end{document}
