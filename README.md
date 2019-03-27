@@ -10,7 +10,7 @@ http://texdoc.net
 * Know difference between `\newpage` vs `\pagebreak`
 
 ### Syntax:
-* Ignore sensitive signs with `\begin{verbatim}` `\end{verbatim}`
+* Ignore sensitive signs with `\begin{verbatim}` `\end{verbatim}` or with `\`
 
 [Fancy verbatism](http://texdoc.net/texmf-dist/doc/latex/fancyvrb/fancyvrb.pdf)
 
