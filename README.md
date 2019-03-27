@@ -8,27 +8,26 @@ Any improvement suggestions are appreciated. –> ***georgij.michaliutin (at) me
 
 
 
-Inspect the code and dependencies before editing ***main.tex*** and files in ***Settings/*** folder!
+Before editing ***main.tex*** and files in ***Settings/*** folder inspect the code and dependencies.
 
 ## Useful information
 
-### General Latex information: 
-http://texdoc.net
+### General Latex information:
+[Latex Tutorials](https://www.latex-tutorial.com)
+
+[Tex Documentation Lookup](http://texdoc.net)
+
 
 ### Text layout:
 * Know difference between `\newpage` vs `\pagebreak`
-
-### Syntax:
-* Ignore sensitive signs with `\begin{verbatim}` `\end{verbatim}` or with `\`
-
-[Fancy verbatism](http://texdoc.net/texmf-dist/doc/latex/fancyvrb/fancyvrb.pdf)
+* Easy syntax control with [fancy verbatism](http://texdoc.net/texmf-dist/doc/latex/fancyvrb/fancyvrb.pdf)
 
 ### Figures:
 * In MatLab save your plots as vector-based (EPS format) with the following command:
-`print -depsc -tiff example1`
+`print -depsc -tiff example1`. Also check out `print` and `saveas` help pages as output may vary between platforms and Matlab versions.
 
 ### Tables:
-[List of examples](https://www.latex-tutorial.com/tutorials/tables/)
+[Examples](https://www.latex-tutorial.com/tutorials/tables/)
 
 ### Reference system:
 Current reference system is based on IEEE standard
@@ -41,7 +40,6 @@ Current reference system is based on IEEE standard
 [Matlab code interpreter](https://github.com/nasa/nasa-latex-docs/blob/master/support/packages/mcode/mcode.sty)
 
 ### Warning handling:
-Silencing stupid warnings with:
-`\usepackage{silence}`
-`\WarningFilter{latex}{Warning info...}`
+* Ignore sensitive latex code: `\begin{verbatim} Ignored latex code... \end{verbatim}` or with `\`
+* Silencing stupid warnings: `\WarningFilter{latex}{Warning info...}`
 
