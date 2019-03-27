@@ -1,7 +1,16 @@
 # E18 Latex Mall v0.9
-Any improvement suggestions are appreciated. ***georgij.michaliutin (at) me.com***
+Any improvement suggestions are appreciated. –> ***georgij.michaliutin (at) me.com***
+
+## Import in to Overleaf
+1. Download ZIP file (**Clone or download** button)
+1. Go to Overleaf, click on **New Project** and select **Upload Project**
+1. Upload the ZIP file
+
+
 
 Inspect the code and dependencies before editing ***main.tex*** and files in ***Settings/*** folder!
+
+## Useful information
 
 ### General Latex information: 
 http://texdoc.net
