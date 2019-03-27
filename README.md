@@ -1,37 +1,38 @@
-__________E18 Latex Mall v0.9__________
-Any improvement suggestions are appreciated
-georgij.michaliutin (at) me.com
+# E18 Latex Mall v0.9
+Any improvement suggestions are appreciated. ***georgij.michaliutin (at) me.com***
 
-Inspect the code and dependencies before editing main.tex and files in Settings folder!
+Inspect the code and dependencies before editing ***main.tex*** and files in ***Settings/*** folder!
 
-General Latex information: 
+### General Latex information: 
 http://texdoc.net
 
------  Text layout: ----- 
-* Know difference between \newpage vs \pagebreak
+### Text layout:
+* Know difference between `\newpage` vs `\pagebreak`
 
------ Syntax: -----
-* Ignore sensitive signs with \begin{verbatim} \end{verbatim}
-* Fancy verbatism:
-http://texdoc.net/texmf-dist/doc/latex/fancyvrb/fancyvrb.pdf
+### Syntax:
+* Ignore sensitive signs with `\begin{verbatim}` `\end{verbatim}`
 
------ Figures: -----
-* In MatLab save your plots as vector-based with EPS:
-print -depsc -tiff example1
+[Fancy verbatism](http://texdoc.net/texmf-dist/doc/latex/fancyvrb/fancyvrb.pdf)
 
------ Tables: -----
-https://www.latex-tutorial.com/tutorials/tables/
+### Figures:
+* In MatLab save your plots as vector-based (EPS format) with the following command:
+`print -depsc -tiff example1`
 
------ Reference system: ----- 
-NOTE: Current reference system is based on IEEE standard
-https://en.wikipedia.org/wiki/BibTeX
-https://www.latex-tutorial.com/tutorials/bibtex/
+### Tables:
+[List of examples](https://www.latex-tutorial.com/tutorials/tables/)
 
------ Matlab code display: ----- 
-https://github.com/nasa/nasa-latex-docs/blob/master/support/packages/mcode/mcode.sty
+### Reference system:
+Current reference system is based on IEEE standard
 
------ Good to know -----
+[About BibTex](https://en.wikipedia.org/wiki/BibTeX)
+
+[BibTex Tutorial](https://www.latex-tutorial.com/tutorials/bibtex/)
+
+### Matlab code display:
+[Matlab code interpreter](https://github.com/nasa/nasa-latex-docs/blob/master/support/packages/mcode/mcode.sty)
+
+### Warning handling:
 Silencing stupid warnings with:
-\usepackage{silence}
-\WarningFilter{latex}{Warning info...}
+`\usepackage{silence}`
+`\WarningFilter{latex}{Warning info...}`
 
