@@ -1,16 +1,26 @@
-x2 = [ 0.000 1.000 2.000 3.000 4.000 5.000 ];
-y2 = [ 3.749 4.689 6.273 5.897 6.381 7.003 ];
+% ------ Shared graph settings -------
+gcaSettings = {...
+    'XGrid','on',...
+    'YGrid', 'on',...
+    'Fontsize', 13,...
+    'linewidth', 1,...
+    'FontName', 'Arial'};
 
-plot(x2,y2,'bo')
-p2 = polyfit(x2,y2,5);
-yy2 = polyval(p2, x2);
+labelSettings = {...
+    'Interpreter','latex'...
+    'Fontsize', 17};
+% -------------------------------------
 
-plot(x2,yy2,'r*')
-axis([0 5 3 8])
+t = [0 1.87 3.74 5.62 7.5 9.37 11.25 13.12]; % ns
+I = [1001 841 723 641 505 426 386 374]; 
+err = sqrt(I);
 
+errorbar(t,I,err,'k--');    % Plot with errorbars
 
-
-
-
-
-
+set(gca,gcaSettings(1:2:end),gcaSettings(2:2:end))
+xlabel('$t$/$ns$',labelSettings(1:2:end), labelSettings(2:2:end))
+ylabel('Antal emitterade fotoner',...
+    labelSettings(1:2:end), labelSettings(2:2:end))
+xticks(0:2:15)
+yticks(0:200:1200)
+saveas(gcf,'fig1_1','epsc') % Save plot as EPS file
