@@ -1,4 +1,7 @@
 # E18 Latex Mall v1.0
+[How it looks](Preview.pdf)
+
+
 Any improvement suggestions are appreciated. –> ***georgij.michaliutin (at) me.com***
 
 ## Import in to Overleaf
@@ -27,8 +30,14 @@ Before editing ***main.tex*** and files in ***Settings/*** folder inspect the co
 * In MatLab save your plots as vector-based (EPS format) with the following command:
 `saveas(gcf,'filename','epsc')`. Output may vary between platforms and Matlab versions, check out [`print`](https://www.mathworks.com/help/matlab/ref/print.html) and [`saveas`](https://www.mathworks.com/help/matlab/ref/saveas.html) help pages.
 
+### Equations:
+* [Symbols basics](https://kogler.wordpress.com/2008/03/21/latex-use-of-math-symbols-formulas-and-equations/)
+* [Comprehensive list of equation commands](https://en.wikipedia.org/wiki/Help:Displaying_a_formula)
+* [Make equations by clicking buttons :(](https://www.codecogs.com/latex/eqneditor.php)
+
 ### Tables:
 [Examples](https://www.latex-tutorial.com/tutorials/tables/)
+
 
 ### Reference system:
 References are managed by BibTex and is using IEEE referencing standard. Learn more:
