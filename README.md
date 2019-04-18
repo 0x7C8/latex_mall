@@ -29,6 +29,7 @@ Before editing ***main.tex*** and files in ***Settings/*** folder inspect the co
 * [Examples](https://nasa.github.io/nasa-latex-docs/build/html/examples/figures.html)
 * In MatLab save your plots as vector-based (EPS format) with the following command:
 `saveas(gcf,'filename','epsc')`. Output may vary between platforms and Matlab versions, check out [`print`](https://www.mathworks.com/help/matlab/ref/print.html) and [`saveas`](https://www.mathworks.com/help/matlab/ref/saveas.html) help pages.
+* If you are using Matlab check out this page on [how to make pretty figures](http://staff.www.ltu.se/~damvar/Matlab/HowToMakePrettyFiguresWithMatlab.pdf)
 
 ### Equations:
 * [Symbols basics](https://kogler.wordpress.com/2008/03/21/latex-use-of-math-symbols-formulas-and-equations/)
